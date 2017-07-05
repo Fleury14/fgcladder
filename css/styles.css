@@ -10,8 +10,8 @@ body {
 
 
 .navbar-container-top {
-    height: 75px;
-    width: 100%;
+    
+    
     background-color: #a63446;
 }
 
@@ -23,30 +23,30 @@ body {
 
 .navbar-item {
     list-style: none;
-    float: left;
-    margin-right: 100px;
+    
+    
     font-family: "Crete Round", serif;
     color: #FFF;
     font-size: 18px;
-    margin-top: 27px;
+    
 }
 
 .nav-container-bottom {
-    height: 75px;
-    width: 100%;
+    
+    
     background-color: #d3d6d1;
 
-    margin-top: 0px;
+    
 }
 
 .navbar-item-bottom {
     list-style: none;
-    float: left;
-    margin-right: 40px;
+    
+    
     color: #0c6291;
     font-size: 18px;
     font-variant: small-caps;
-    margin-top: 27px;
+    
     font-family: "Crete Round", serif;
 }
 
@@ -65,9 +65,11 @@ body {
 /* Begin Main body Styles */
 
 .header-container {
-    width: 100%;
-    height: 200px;
     margin-top: 50px;
+}
+
+.header-row {
+    margin-bottom: 50px;
 }
 
 .header-img {
@@ -75,15 +77,14 @@ body {
     margin: 0px 50px;
 }
 
-.header-container p {
+.header-text {
     font-family: "Titillium Web", sans-serif;
+    font-size: 18px;
 }
 
-.june-30-2017 {
-    width: 100%;
-    height: 100%;
 
-}
+
+
 
 .news-header {
     background-color: #a63446;
@@ -92,7 +93,7 @@ body {
     display: inline-block;
     height: 30px;
     padding: 0px 25px;
-    margin-left: 50px;
+    
     
 }
 
@@ -104,7 +105,7 @@ body {
 }
 
 .news-body {
-    width: 90%;
+    width: 100%;
     height: 100%;
     border: 8px solid #a63446;
     padding: 0px 30px;
@@ -114,9 +115,9 @@ body {
 
 .news-frame {
     height: 90%;
-    width: 75%;
+    width: 100%;
     border-left: 8px solid #c44558;    
-    margin-left: 50px;
+    
 }
 
 .news-sig {
@@ -134,25 +135,22 @@ body {
 
 .footer-container {
     margin-top: 50px;
-    height: 100px;
-    width: 100%;
+    min-height: 100px;
+    
     background-color: #a63446;
 }
 
-.footer-copy {
+.footer-copy-box {
     font-family: "Crete Round", serif;
     color: #fff;
-    float: left;
-    margin-left: 50px;
-    margin-top: 39.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 .footer-icon-box {
-    float: right;
-    margin-right: 50px;
-
-    width: 25%;
-    height: 100%;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;

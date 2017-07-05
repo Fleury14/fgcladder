@@ -6,6 +6,7 @@
     <meta name="title" content="Fresno Gaming Community Ladder">
     <meta name="description" content="A website containing a ladder to allow members of the Fresno Gaming Community to continuously challenge each other in order to improve themselves.">
     <meta name="author" content="J.R. Ruggiero">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
@@ -14,49 +15,92 @@
 </head>
 <body>
     <nav>
-        <div class="navbar-container-top">
-            <ul class="navbar-list">
-                <li class="navbar-item descriptor">MAIN NAV:</li>
-                <li class="navbar-item">HOME</li>
-                <li class="navbar-item">CONTACT</li>
-                <li class="navbar-item">ABOUT</li>
-            </ul>
-        </div>
-        <div class="nav-container-bottom">
-            <ul class="navbar-list">
-                <li class="navbar-item-bottom descriptor">LADDER INFO:</li>
-                <li class="navbar-item-bottom">Rules</li>
-                <li class="navbar-item-bottom">Standings</li>
-                <li class="navbar-item-bottom">Challenges</li>
-                <li class="navbar-item-bottom">Match History</li>
-            </ul>
-        </div>
+        <div class="container-fluid">    
+            <div class="row navbar-container-top">
+                <div class="col-sm-2 col-xs-6 navbar-item">MAIN NAV:</div>
+                <div class="col-sm-2 col-xs-6 navbar-item">HOME</div>
+                <div class="col-sm-2 col-xs-6 navbar-item">CONTACT</div>
+                <div class="col-sm-2 col-xs-6 navbar-item">ABOUT</div>
+                <div class="col-sm-4 col-xs-6"></div>
+                
+                
+                <!--<ul class="navbar-list">-->
+                <!--    <li class="navbar-item descriptor">MAIN NAV:</li>-->
+                <!--    <li class="navbar-item">HOME</li>-->
+                <!--    <li class="navbar-item">CONTACT</li>-->
+                <!--    <li class="navbar-item">ABOUT</li>-->
+                <!--</ul>-->
+            </div>
+            <div class="row nav-container-bottom">
+                <div class="col-sm-2 col-xs-6 navbar-item-bottom">LADDER INFO:</div>
+                <div class="col-sm-2 col-xs-6 navbar-item-bottom">Rules</div>
+                <div class="col-sm-2 col-xs-6 navbar-item-bottom">Standing</div>
+                <div class="col-sm-2 col-xs-6 navbar-item-bottom">Challenges</div>
+                <div class="col-sm-2 col-xs-6 navbar-item-bottom">Match History</div>
+                
+                
+                
+                <!--<ul class="navbar-list">-->
+                <!--    <li class="navbar-item-bottom descriptor">LADDER INFO:</li>-->
+                <!--    <li class="navbar-item-bottom">Rules</li>-->
+                <!--    <li class="navbar-item-bottom">Standings</li>-->
+                <!--    <li class="navbar-item-bottom">Challenges</li>-->
+                <!--    <li class="navbar-item-bottom">Match History</li>-->
+                <!--</ul>-->
+            </div>
+        </div>    
     </nav>
     <header>
-        <div class="header-container">
-             <img src="img/fgcicon.jpg" alt="FGC icon" class="header-img" height="100" width="100" />
-             <p>Welcome to the future website for the ladder representing the Fresno Gaming Community. Here, we encourage members to challenge both themselves and others by maintaining a persistent ladder in which people can compete in various fighting games.</p>
-        </div>
-        
-    </header>
-    <div class="index-mainbody">
-        <div class="june-30-2017">
-            <div class="news-header"><h3>June 30th, 2017</h3></div>
-            <div class="news-frame">
-                <div class="news-body">
-                    <p>Began construction of the website. Completed Nav, main page, and news items. Will add more as we go along.</p>
-                    <p class="news-sig">Fleury14</p>
+        <div class="container header-container"></div>
+            <div class="row header-row">
+                 <div class="col-sm-3 col-xs-0">
+                     <img src="img/fgcicon.jpg" alt="FGC icon" class="header-img" height="100" width="100" />
+                </div>
+                <div class="col.xs.9">
+                     <p class="header-text">Welcome to the future website for the ladder representing the Fresno Gaming Community. Here, we encourage members to challenge both themselves and others by maintaining a persistent ladder in which people can compete in various fighting games.</p>
                 </div>
             </div>
-        </div>
-    </div>
+        
+    </header>
+    
+    <div class="container">
+        
+            <div class="row july-5-2017">
+                <div class="col-sm-9 news-border">
+                    <div class="news-header"><h3>July 5th, 2017</h3></div>
+                    <div class="news-frame">
+                        <div class="news-body">
+                            <p>Included Bootstrap functionality to the the site responsive, and viewable on mobile devices. </p>
+                            <p class="news-sig">Fleury14</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 news-border"></div>
+            </div>
+            <div class="row june-30-2017">
+                <div class="col-sm-9 news-border">
+                    <div class="news-header"><h3>June 30th, 2017</h3></div>
+                    <div class="news-frame">
+                        <div class="news-body">
+                            <p>Began construction of the website. Completed Nav, main page, and news items. Will add more as we go along.</p>
+                            <p class="news-sig">Fleury14</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 news-border"></div>
+            </div>
+        
+    </div>    
     <footer>
-        <div class="footer-container">
-            <p class="footer-copy">&copy Copyright J.R. Ruggiero, All rights reserved.</p>
-            <div class="footer-icon-box">
-                <i class="fa fa-facebook" aria-hidden="true"></i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+        
+        <div class="container-fluid">
+            <div class="row footer-container">
+                <div class="col-sm-3 footer-copy-box"><p class="footer-copy-text">&copy Copyright J.R. Ruggiero, All rights reserved.</p></div>
+                <div class="col-sm-3 col-sm-offset-6 footer-icon-box">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-envelope-open-o" aria-hidden="true"></i>
+                </div>
             </div>
         </div>
     </footer>
