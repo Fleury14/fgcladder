@@ -7,7 +7,9 @@ body {
 
 /*Begin Navbar Styles */
 
-
+nav {
+    transition: all .4s;
+}
 
 .navbar-container-top {
     
@@ -31,24 +33,40 @@ body {
     
 }
 
-.nav-container-bottom {
-    
-    
-    background-color: #d3d6d1;
+.navbar-item a {
+    color: #FFF;
+    text-decoration: none;
+    transition: all 0.3s;
+}
 
-    
+.navbar-item a:hover {
+    color: #d3d6d1;
+    text-decoration: underline;
+}
+
+.nav-container-bottom {
+    background-color: #d3d6d1;
 }
 
 .navbar-item-bottom {
     list-style: none;
-    
-    
     color: #0c6291;
     font-size: 18px;
     font-variant: small-caps;
-    
     font-family: "Crete Round", serif;
 }
+
+.navbar-item-bottom a {
+    color: #0c6291;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.navbar-item-bottom a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 
 .descriptor {
     font-weight: bolder;
@@ -159,4 +177,9 @@ body {
 .footer-icon-box .fa {
     color: #fff;
     font-size: 30px;
+    transition: all .4s;
+}
+
+.footer-icon-box .fa:hover {
+    color: gray;
 }
