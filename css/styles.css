@@ -100,7 +100,23 @@ nav {
     font-size: 18px;
 }
 
+.panel-danger > .panel-heading-custom {
+    background-color: #a63446;
+    color: #fff;
+    font-family: "Crete Round", serif;
+    border-left: 8px solid #c44558;
+    font-size: 20px;
+}
 
+
+
+.panel-news-body {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.panel-sig {
+    text-align: right;
+}
 
 
 
