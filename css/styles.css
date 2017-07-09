@@ -73,6 +73,28 @@ nav {
     font-size: 20px;
 }
 
+.bnavbar {
+    font-family: "Crete Round", serif;
+    font-variant: small-caps;
+    font-size: 16px;
+}
+
+.bnavbar > li > a {
+    color: #a63446;
+    transition: 0.3s all;
+    
+}
+
+.bnavbar > li > a:hover {
+    background-color: #e2a2ac;
+    color: #000;
+}
+
+.bnavbar > li.active > a {
+    background-color: #a63446;
+    color: #fff;
+}
+
 /* End Nav Bar Styles */
 
 .index-mainbody {
