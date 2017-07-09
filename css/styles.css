@@ -205,6 +205,26 @@ nav {
     height: 100px;
 }
 
+.footer-site-map {
+    font-family: "Crete Round";
+    font-size: 10px;
+    color: #fff;
+}
+
+.footer-site-map-head {
+    
+    text-align: center;
+}
+
+.footer-site-map-col {
+    text-align: center;
+}
+
+.footer-site-map-col a {
+    color: #fff;
+}
+
+
 .footer-icon-box {
     height: 100px;
     display: flex;
