@@ -13,6 +13,10 @@
     font-family: "Titillium Web", sans-serif;
 }
 
+.standing-header {
+    font-family: "Titillium Web", sans-serif;
+}
+
 .standing-table  {
     font-family: "Titillium Web", sans-serif;
 }
@@ -37,3 +41,13 @@
 .about-text {
     font-family: "Titillium Web", sans-serif;
 }
+
+.match-results {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 18px;
+}
+
+.wufoo-container {
+    border: 2px solid #a63446;
+}
+
