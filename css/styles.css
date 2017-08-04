@@ -4,6 +4,14 @@ body {
     margin: 0px;
 }
 
+.font-titi {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.deep-red-bg {
+    background-color: #a63446;
+}
+
 
 /*Begin Navbar Styles */
 
@@ -184,6 +192,20 @@ nav {
     float: right;
     margin-top: 0px;
 }
+
+/* Sidebar Styles */
+
+.sidebar-panel-cont {
+    border: 3px solid #a63446;
+    border-radius: 5%;
+    font-size: 10px;
+    margin-bottom: 50px;
+}
+
+.sidebar-panel-head {
+    color: #fff;
+}
+
 
 /* End Main body Styles */
 
