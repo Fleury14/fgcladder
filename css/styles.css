@@ -209,6 +209,46 @@ nav {
 
 /* End Main body Styles */
 
+/* Begin Ticker bar styles */
+
+.ticker-bar {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(20,20,20,1);
+    position: fixed;
+    bottom: 0px;
+    z-index: 5;
+}
+
+#ticker-subject {
+  height: 100%;
+  width: 20%;
+  border-right: 2px dashed yellow;
+  float: left;
+}
+
+#ticker-subject, #ticker-text {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 9px;
+  opacity: 1;
+  transition: 0.5s all;
+}
+
+.hidden {
+  opacity: 0;
+  transition: 0.5s all;
+}
+
+.ticker-spacing {
+    height: 50px;
+    width: 100%;
+}
+
+/*End ticker bar Styles */
+
 /* Begin footer styles */
 
 .footer-container {
