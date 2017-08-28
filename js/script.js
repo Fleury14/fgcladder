@@ -31,21 +31,21 @@ function nextDisplay() {
   
   let x = itemCheck(currentItem);
   if( textContent[currentItem][0] != textContent[x][0] ) {
-    tickerSub.classList.add('hidden');
+    tickerSub.classList.add('ticker-hidden');
   }
   
-  tickerText.classList.add('hidden');
+  tickerText.classList.add('ticker-hidden');
   console.log(itemCheck(currentItem));  
   setTimeout(function() {
     nextItem();
 
     tickerSub.innerText = textContent[currentItem][0];
     tickerText.innerText = textContent[currentItem][1];
-    tickerText.classList.remove('hidden');
-    if (tickerSub.classList.contains('hidden')) {
-      tickerSub.classList.remove('hidden');
+    tickerText.classList.remove('ticker-hidden');
+    if (tickerSub.classList.contains('ticker-hidden')) {
+      tickerSub.classList.remove('ticker-hidden');
     }
-  }, 700);
+  }, 1500);
   
 } //end func
 

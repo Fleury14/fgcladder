@@ -219,32 +219,45 @@ nav {
     position: fixed;
     bottom: 0px;
     z-index: 5;
+    font-family: 'Titillium Web', sans-serif;
+    
+
 }
 
-#ticker-subject {
+.ticker-sub {
   height: 100%;
   width: 20%;
   border-right: 2px dashed yellow;
   float: left;
+
 }
 
-#ticker-subject, #ticker-text {
+.ticker-sub, .ticker-tex {
   height: 100%;
   display: flex;
   align-items: center;
   padding-left: 9px;
-  opacity: 1;
-  transition: 0.5s all;
+
+
+  -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    margin: 0px;
+
+
 }
 
-.hidden {
+.ticker-hidden {
   opacity: 0;
-  transition: 0.5s all;
+
 }
 
 .ticker-spacing {
     height: 50px;
     width: 100%;
+    visibility: hidden;
+    background-color: transparent;
 }
 
 /*End ticker bar Styles */
