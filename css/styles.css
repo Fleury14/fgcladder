@@ -217,6 +217,10 @@ nav {
     color: #fff;
 }
 
+.event-divider {
+    border-bottom: 1px solid #a63446;
+ 
+}
 
 /* End Main body Styles */
 
