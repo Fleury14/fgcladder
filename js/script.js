@@ -3,6 +3,7 @@ const tickerText = document.querySelector('#ticker-text');
 let textContent = [];
 let currentItem = 0;
 
+
 // content here
 textContent.push(['Recent Matches - Tekken', '8/16: (2) Domezy(Kat) def. (1) Reckless(Steve/Hwo) 5-1.']);
 textContent.push(['Recent Matches - Tekken', '8/16: (4) Fobi_Yo(Yoshi/Jack) def. (5) Fleury14(Lars) 5-2.']);
@@ -53,4 +54,31 @@ tickerSub.innerText = textContent[0][0];
 tickerText.innerText = textContent[0][1];
 
 setInterval(nextDisplay, 4000);
+
+// SHOW-HIDE NEWS SECTION
+
+// show news button
+const showNewsBtn = document.getElementById('showNewsButton');
+const olderNews = document.querySelector('.hidden-news');
+let newsHidden = true; //flag to denote if older news is hidden or not
+
+function toggleNews() { //function to toggle older news showing
+  if(newsHidden === true) {
+    olderNews.style.height = '100%';
+    showNewsBtn.innerText = 'Hide Older News';
+    newsHidden=false;
+  } else {
+    olderNews.style.height='0px';
+    showNewsBtn.innerText = 'Show Older News';
+    newsHidden=true;
+  }
+}
+
+showNewsBtn.addEventListener('click', toggleNews);
+
+
+
+
+
+
 

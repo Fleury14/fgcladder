@@ -193,6 +193,17 @@ nav {
     margin-top: 0px;
 }
 
+.hidden-news {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.show-news-container {
+    display: flex;
+    justify-content: center;
+}
+
 /* Sidebar Styles */
 
 .sidebar-panel-cont {
