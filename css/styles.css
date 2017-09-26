@@ -4,6 +4,14 @@ body {
     margin: 0px;
 }
 
+.font-titi {
+    font-family: "Titillium Web", sans-serif;
+}
+
+.deep-red-bg {
+    background-color: #a63446;
+}
+
 
 /*Begin Navbar Styles */
 
@@ -185,7 +193,89 @@ nav {
     margin-top: 0px;
 }
 
+.hidden-news {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+
+.show-news-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Sidebar Styles */
+
+.sidebar-panel-cont {
+    border: 3px solid #a63446;
+    border-radius: 5%;
+    font-size: 10px;
+    margin-bottom: 50px;
+}
+
+.sidebar-panel-head {
+    color: #fff;
+}
+
+.event-divider {
+    border-bottom: 1px solid #a63446;
+ 
+}
+
 /* End Main body Styles */
+
+/* Begin Ticker bar styles */
+
+.ticker-bar {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(20,20,20,1);
+    position: fixed;
+    bottom: 0px;
+    z-index: 5;
+    font-family: 'Titillium Web', sans-serif;
+    
+
+}
+
+.ticker-sub {
+  height: 100%;
+  width: 20%;
+  border-right: 2px dashed yellow;
+  float: left;
+
+}
+
+.ticker-sub, .ticker-tex {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 9px;
+
+
+  -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+    margin: 0px;
+
+
+}
+
+.ticker-hidden {
+  opacity: 0;
+
+}
+
+.ticker-spacing {
+    height: 50px;
+    width: 100%;
+    visibility: hidden;
+    background-color: transparent;
+}
+
+/*End ticker bar Styles */
 
 /* Begin footer styles */
 

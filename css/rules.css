@@ -13,12 +13,22 @@
     font-family: "Titillium Web", sans-serif;
 }
 
+/* End rules Styles */
+
+/* Begin Standings Styles */
+
 .standing-header {
     font-family: "Titillium Web", sans-serif;
 }
 
 .standing-table  {
     font-family: "Titillium Web", sans-serif;
+}
+
+.standing-sort-button-row {
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 .contact-list-group {
